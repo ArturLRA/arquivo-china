@@ -1,0 +1,49 @@
+.body {
+  background-color: #2B2A2A;
+}
+
+.fundoFoto{
+  background-image: url("../image/imagemInicio.png");
+  background-size: cover;      
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;                 
+  height: 100vh; 
+
+  position: relative; 
+  isolation: isolate
+}
+
+.dark-overlay {
+  content: '';
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background-color: rgba(0, 0, 0, 0.5); 
+  
+  z-index: -1; 
+}
+
+.titulos {
+  margin-top: 200px;   
+  text-align: center;  
+}
+
+.titulosTexto{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.titulosImagens {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 8px;
+}
