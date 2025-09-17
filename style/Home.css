@@ -47,3 +47,74 @@
   grid-template-rows: repeat(4, 1fr);
   gap: 8px;
 }
+
+.contextoTexto {
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.tituloGuerraSinoJaponesa {
+  margin-top: 70px;
+  margin-bottom: -20px;
+}
+
+.guerraSinoJaponesaTexto1 {
+  margin-top: 80px;
+  margin-bottom: 70px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.guerraSinoJaponesaTexto2 {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.tituloMassacreDeNanquim {
+  margin-top: 50px;
+}
+
+.massacreDeNanquimTexto {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+
+.tituloMulheresDeConforto {
+  margin-top: 50px;
+}
+
+.massacreDeNanquimTexto2 {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.container-separador {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.linha-decorativa {
+  display: inline-block;
+  margin-left: 580px;
+  width: 400px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.8);
+}

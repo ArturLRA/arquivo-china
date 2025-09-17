@@ -6,9 +6,16 @@ import GridMassacreDeNanquim from "../components/gridMassacreDeNanquim.jsx";
 import TextoGuerraSinoJaponesa1 from '../components/textoGuerraSinoJaponesa1.jsx';
 import TextoGuerraSinoJapones2 from '../components/textoGuerraSinoJaponesa2.jsx';
 import TextoMassacreDeNanquim from '../components/textoMassacreDeNanquim.jsx';
+import ModalGuerraSinoJaponesa1 from '../components/modalGuerraSinoJaponesa1.jsx';
+import ModalGuerraSinoJaponesa2 from '../components/modalGuerraSinoJaponesa2.jsx';
+import ModalMassacreDeNanquim from '../components/modalMassacreDeNanquim.jsx';
+import ModalMassacreDeNanquim2 from '../components/modalMassacreDeNanquim2.jsx';
+import Footer from '../components/footer.jsx';
 import '../style/Home.css';
 
 function Home () {
+
+
  return (
     <div>
         <div className='fundoFoto'>
@@ -24,6 +31,7 @@ function Home () {
                 </h1>
             </div>
         </div>
+        <section id="projeto">
         <div className='titulosTexto'>
            <h4>
             O projeto propõe a criação de um mapa interativo da Segunda Guerra Mundial, 
@@ -34,9 +42,12 @@ function Home () {
            </h4>
 
         </div>
+        </section>
 
         <GridImagemContexto/>
 
+            <section id="assunto">
+           <div className='contextoTexto'>
            <h4>
             A China foi o primeiro país a entrar no que se tornaria a Segunda Guerra Mundial, 
             sendo aliada dos Estados Unidos e do Império Britânico, isso aconteceu logo após o ataque a Pearl Harbor, 
@@ -55,19 +66,17 @@ function Home () {
             eles foram “os primeiros a lutar”. Embora os exércitos chineses fossem fracos, 
             muitas de suas melhores tropas foram sacrificadas em grandes batalhas, como Xangai e Xuzhou.
            </h4><p/>
+           </div>
 
             <GridGuerraSinoJaponesa/>
 
-            <div className='guerraSinoJaponesaTexto'>
-            <h1>Guerra Sino-Japonesa</h1>
+            <h1 className='tituloGuerraSinoJaponesa'>Guerra Sino-Japonesa</h1>
 
+            <div className='guerraSinoJaponesaTexto1' id='guerraSinoJaponesa'>
+            
             <TextoGuerraSinoJaponesa1/>
 
-            <h4>
-                Com a revolta, a Coreia pediu ajuda à China. Tradicionalmente, a Coreia era um estado tributário da China, 
-                ou seja, ela mantinha sua autonomia interna (tinha seu próprio rei, leis e governo), 
-                porém pagava tributos como um sinal de lealdade e respeito. Em troca, a China oferecia proteção militar e política.
-            </h4><p/>
+            
 
             <h4>
                 A localização estratégica da Coreia e seus recursos naturais de carvão e ferro ativaram o interesse do Japão. 
@@ -99,9 +108,13 @@ function Home () {
             </h4><p/>
             </div>
 
+            <ModalGuerraSinoJaponesa1/>
+            
+            <div className="container-separador">
+                <div className="linha-decorativa"></div>
+            </div>
 
-
-
+            <div className='guerraSinoJaponesaTexto1'>
             <TextoGuerraSinoJapones2/>
 
             <h4>
@@ -126,11 +139,19 @@ function Home () {
                 A derrota do Japão foi selada com as bombas atômicas lançadas sobre Hiroshima e Nagasaki e a 
                 entrada da União Soviética no conflito. Em 2 de setembro de 1945, o Japão se rendeu formalmente.
             </h4><p/>
+            </div>
+
+            <ModalGuerraSinoJaponesa2/>
+            <div className="container-separador">
+            <div className="linha-decorativa"></div>
+            </div>
+            </section>
         
             <GridMassacreDeNanquim/>
 
-            <h1>Massacre de Nanquim</h1>
-
+            <section id="massacreDeNanquim">
+            <h1 className='tituloMassacreDeNanquim'>Massacre de Nanquim</h1>
+            <div className='massacreDeNanquimTexto'>
             <h4>
                 O Massacre de Nanquim, também conhecido como Estupro de Nanquim, 
                 aconteceu entre 13 de dezembro de 1937 e fevereiro de 1938, durante a Segunda Guerra Sino-Japonesa. 
@@ -151,6 +172,52 @@ function Home () {
                 sendo mortos por fuzilamentos, decapitações e até queimados vivos. Há registros de práticas ainda mais cruéis, 
                 como competições organizadas entre soldados japoneses para ver quem matava mais prisioneiros em menos tempo.
             </h4><p/>
+            
+        </div>
+
+        <ModalMassacreDeNanquim/>
+        <div className="container-separador">
+        <div className="linha-decorativa"></div>
+        </div>
+        </section>
+
+        <section id="mulheresDeConforto">
+
+        <h1 className='tituloMulheresDeConforto'>Mulheres de Conforto</h1>
+
+        <div className='massacreDeNanquimTexto2'>
+            <h4>O termo "Mulheres de Conforto" (uma tradução do japonês ianfu) é um eufemismo para as mulheres e meninas que foram 
+                forçadas à escravidão sexual pelo Exército Imperial Japonês durante a Segunda Guerra Mundial. 
+                Estima-se que centenas de milhares de vítimas foram coagidas a trabalhar em bordéis militares, 
+                conhecidos como "estações de conforto", estabelecidos em países e territórios ocupados pelo Japão, como Coreia, 
+                China, Filipinas, Indonésia e Taiwan.</h4><p/>
+
+            <h4>A criação desse sistema de escravidão sexual, que perdurou de 1932 a 1945, 
+                tinha como objetivo principal a manutenção da moral das tropas, 
+                a prevenção de doenças sexualmente transmissíveis e o controle de estupros aleatórios por soldados em áreas de conflito. 
+                As mulheres eram frequentemente recrutadas sob falsas promessas de emprego legítimo em fábricas ou lavanderias, 
+                mas acabavam confinadas em condições brutais, sendo submetidas a estupros diários, tortura e, em muitos casos, 
+                assassinatos.</h4><p/>
+
+            <h4>A questão das "mulheres de conforto" permanece como um ponto de grande tensão nas relações diplomáticas entre o Japão e 
+                a Coreia do Sul. O governo japonês, por décadas, negou o envolvimento direto do Estado na coerção das mulheres. 
+                No entanto, a descoberta de documentos históricos e, principalmente, o testemunho corajoso das sobreviventes, 
+                tornaram o problema uma pauta central nos direitos humanos internacionais.
+            </h4>
+
+            <h4>O reconhecimento formal e a reparação às vítimas têm sido um processo lento e complexo. Em 2015, 
+                Japão e Coreia do Sul fecharam um acordo bilateral que incluía um pedido de desculpas de Tóquio e a criação de um 
+                fundo para as vítimas. No entanto, o acordo gerou controvérsia e foi considerado insuficiente por ativistas e pelas 
+                próprias sobreviventes, que exigem uma admissão de culpa mais clara e a inclusão da história nos livros didáticos 
+                japoneses para evitar que o episódio seja esquecido.</h4>
+            
+            <h4>A luta das "mulheres de conforto" e seus apoiadores continua a ser um marco na busca por justiça e memória histórica, 
+                destacando a importância de não silenciar as vítimas de crimes de guerra e de garantir que atrocidades desse tipo não 
+                se repitam.</h4>
+        </div>
+        <ModalMassacreDeNanquim2/>
+        </section>
+        <Footer/>
         </div>
         
  )

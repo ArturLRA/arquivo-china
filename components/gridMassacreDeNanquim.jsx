@@ -7,9 +7,11 @@ import massacreDeNanquim2 from '../image/massacreDeNanquim2.png';
 import massacreDeNanquim3 from '../image/massacreDeNanquim3.png';
 import massacreDeNanquim4 from '../image/massacreDeNanquim4.png';
 import massacreDeNanquim5 from '../image/massacreDeNanquim5.png';
+import '../style/gridMassacreDeNanquim.css';
 
 function GridMassacreDeNanquim() {
   return (
+    <div className='gridMassacreDeNanquim'>
     <Container>
       <Row>
         <Col><img src={massacreDeNanquim1}></img></Col>
@@ -21,6 +23,7 @@ function GridMassacreDeNanquim() {
         <Col><img src={massacreDeNanquim5}></img></Col>
       </Row>
     </Container>
+    </div>
   );
 }
 

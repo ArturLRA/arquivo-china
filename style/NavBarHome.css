@@ -1,5 +1,29 @@
+
+.navbar-transparent {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+  font-size: large;
+  font-weight: 300;
+  margin-left: -200px;
+}
+
+.navbar-scrolled {
+  background-color: #000;
+  transition: background-color 0.3s ease-in-out;
+  font-size: large;
+  font-weight: 300;
+  margin-left: -200px;
+}
+
 .navbar-nav {
    --bs-navbar-color: #FFFF;
+}
+
+.nav-divisor {
+  color: white;
+  align-self: center;
+  margin: 0 1rem;
+  font-weight: 100;
 }
 
 

@@ -11,22 +11,24 @@ function ModalGuerraSinoJaponesa2() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="link" onClick={handleShow} data-bs-theme="dark">
         Referências
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Referências</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+        <Modal.Body>
+          Second Sino-Japanese War Facts & Worksheets. KidsKonnect, [s.d.].
+          Disponível em: <a>https://kidskonnect.com/history/second-sino-japanese-war/</a>. Second Sino-Japanese War. 
+          Britannica. 25 ago, 2025. Disponível em: <a>https://www.britannica.com/event/Second-Sino-Japanese-War</a>. 
+          FOLHA DE S.PAULO. O drama chinês da guerra com o Japão. São Paulo, 11 jul. 2004. Mundo. 
+          Disponível em: <a>https://www1.folha.uol.com.br/fsp/mundo/ft1107200415.htm</a>. Acesso em: 26 ago. 2025. O GLOBO. 
+          Dia em que o mundo mudou: 80 anos dos bombardeios atômicos que devastaram o Japão. Rio de Janeiro, 6 ago. 2025. Época. 
+          Disponível em: <a>https://oglobo.globo.com/mundo/epoca/noticia/2025/08/06/dia-em-que-o-mundo-mudou-80-anos-dos-bombardeios-atomicos-que-devastaram-o-japao.ghtml</a>. 
+          Acesso em: 27 ago. 2025.</Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
         </Modal.Footer>
       </Modal>
     </>
