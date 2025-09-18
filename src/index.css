@@ -10,6 +10,8 @@ body{
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }  
 
 html {
@@ -59,4 +61,30 @@ h1 {
 .btn:hover {
   color:#FFFF !important;
   margin-left: 80%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 0.5rem;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  margin-bottom: 0.5em;
 }
