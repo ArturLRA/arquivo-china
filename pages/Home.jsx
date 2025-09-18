@@ -108,7 +108,7 @@ function Home () {
             </h4><p/>
             </div>
 
-            <ModalGuerraSinoJaponesa1/>
+            <ModalGuerraSinoJaponesa1 className='modalAlto'/>
             
             <div className="container-separador">
                 <div className="linha-decorativa"></div>
@@ -141,7 +141,7 @@ function Home () {
             </h4><p/>
             </div>
 
-            <ModalGuerraSinoJaponesa2/>
+            <ModalGuerraSinoJaponesa2 className='modalAlto'/>
             <div className="container-separador">
             <div className="linha-decorativa"></div>
             </div>
@@ -175,7 +175,7 @@ function Home () {
             
         </div>
 
-        <ModalMassacreDeNanquim/>
+        <ModalMassacreDeNanquim className='modalBaixo'/>
         <div className="container-separador">
         <div className="linha-decorativa"></div>
         </div>
@@ -215,7 +215,7 @@ function Home () {
                 destacando a importância de não silenciar as vítimas de crimes de guerra e de garantir que atrocidades desse tipo não 
                 se repitam.</h4>
         </div>
-        <ModalMassacreDeNanquim2/>
+        <ModalMassacreDeNanquim2 className='modalBaixo'/>
         </section>
         <Footer/>
         </div>

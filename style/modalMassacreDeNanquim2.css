@@ -1,0 +1,15 @@
+.textoModal {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+a {
+  color: #FFFF !important;
+}
+
+a:hover {
+  color: #FFFF !important;
+}
